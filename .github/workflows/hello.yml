@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: First Message
         run: echo "Hello Bhai!"
+        
+      - name: Create a folder
+        run: mkdir hello-yaml
 
       - name: Check Current Directory
         run: pwd
