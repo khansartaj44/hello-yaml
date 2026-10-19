@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello Bhai!"
         
       - name: Create a folder
-        run: mkdir hello-yaml
+        run: mkdir hello-yml
 
       - name: Check Current Directory
         run: pwd
